@@ -1,0 +1,14 @@
+name: TattySalary
+version: '1.0'
+main: org.glockinmybape.tattysalary.TattySalary
+authors: [ glockinmybape ]
+depend: [ Vault ]
+description: TattySalary
+commands:
+  salary:
+    description: Gives salary to the player
+    usage: "Использование: /salary [arg]"
+permissions:
+  tattysalary.salary:
+    description: Gives access to the /salary command
+    default: false

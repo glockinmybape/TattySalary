@@ -1,0 +1,67 @@
+# Плагин: TattySalary v1.0
+#  Автор: glockinmybape (vk.com/glockinmybape1337)
+#  Студия: TattyInc
+#
+# Команды:
+#   /salary
+#
+# Права:
+#   tattysalary.salary - дает доступ к получению зарплаты.
+#
+
+messages:
+  received-salary: "&cЗарплата &8» &fВы получили зарплату в размере &c%salary%&f."
+  no-salary-specified: "&cЗарплата &8» &fДля вашей привилегии не указана зарплата."
+  no-permission: "&cЗарплата &8» &fНе хватает прав."
+  cooldown: "&cЗарплата &8» &fВы сможете получить зарплату через &c%time%"
+
+  time:
+    days:
+      1: "день"
+      2: "дня"
+      3: "дней"
+    hours:
+      1: "час"
+      2: "часа"
+      3: "часов"
+    minutes:
+      1: "минута"
+      2: "минуты"
+      3: "минут"
+    seconds:
+      1: "секунда"
+      2: "секунды"
+      3: "секунд"
+
+groups:
+  # НазваниеГруппы:
+  #   salary: ЗарплатаГруппы
+  #   cooldown: КулдаунНаПолучениеЗарплаты
+  #   message: "Сообщение, если игрок уже брал зарплату"
+  silver:
+    salary: 2000
+    cooldown: 86400 # 12 часов в секундах
+  elder:
+    salary: 3000
+    cooldown: 86400 # 6 часов в секундах
+  junior:
+    salary: 4000
+    cooldown: 86400 # 6 часов в секундах
+  legend:
+    salary: 5000
+    cooldown: 86400 # 6 часов в секундах
+  overlord:
+    salary: 6000
+    cooldown: 43200 # 6 часов в секундах
+  neon:
+    salary: 7000
+    cooldown: 43200 # 6 часов в секундах
+  furry:
+    salary: 8000
+    cooldown: 43200 # 6 часов в секундах
+  dejavu:
+    salary: 9000
+    cooldown: 21600 # 6 часов в секундах
+  youtube:
+    salary: 10000
+    cooldown: 21600 # 6 часов в секундах
